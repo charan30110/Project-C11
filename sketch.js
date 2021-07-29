@@ -15,6 +15,7 @@ function setup(){
   path1 = createSprite(200,200,20,20); 
   path1.addImage(path);
   path1.scale = 1.2;
+  path1.velocityY = 3;
 
   player = createSprite(205,300,20,20);
   player.addAnimation("running",player_running);
